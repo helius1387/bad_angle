@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bad Angle</title>
+
+    <title>For Yeganeh ✨</title>
 
     <link rel="stylesheet" href="style.css">
 
@@ -13,90 +14,87 @@
 
 <body>
 
-    <div class="background"></div>
+<div class="background"></div>
 
-    <header class="hero">
+<header class="hero">
 
-        <div class="overlay"></div>
+    <div class="overlay"></div>
 
-        <div class="hero-content">
+    <div class="hero-content">
 
-            <h1>BAD ANGLE</h1>
-
-            <p>
-                گاهی حقیقت از زاویه‌ای دیده می‌شود
-                که هیچ‌کس جرئت نگاه کردن به آن را ندارد.
-            </p>
-
-            <a href="#about" class="btn">
-                شروع
-            </a>
-
-        </div>
-
-    </header>
-
-    <section id="about" class="about">
-
-        <div class="container">
-
-            <h2>یگانه</h2>
-
-            <p>
-                این فقط یک سایت نیست...
-                این جاییه برای روایت،
-                برای موسیقی،
-                برای احساس،
-                و برای نگاه کردن از زاویه‌ای متفاوت.
-            </p>
-
-        </div>
-
-    </section>
-
-    <section class="gallery">
-
-        <div class="container">
-
-            <h2>آخرین تصاویر</h2>
-
-            <div class="cards">
-
-                <div class="card"></div>
-
-                <div class="card"></div>
-
-                <div class="card"></div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <section class="music">
-
-        <div class="container">
-
-            <h2>Music</h2>
-
-            <button id="playBtn">
-                پخش موزیک
-            </button>
-
-        </div>
-
-    </section>
-
-    <footer>
+        <h1>✨ برای یگانه ✨</h1>
 
         <p>
-            © BAD ANGLE
+            بعضی هدیه‌ها خریدنی نیستند...
+            <br>
+            فقط باید کشف شوند.
         </p>
 
-    </footer>
+        <button id="startBtn" class="btn">
+            شروع
+        </button>
 
-    <script src="script.js"></script>
+    </div>
+
+</header>
+
+<section id="starsSection" class="hidden">
+
+    <h2>🌌 آسمان رازها</h2>
+
+    <p class="subtitle">
+        هر ستاره یک راز است...
+        <br>
+        اگر کدش را بدانی.
+    </p>
+
+    <div id="starsContainer"></div>
+
+</section>
+
+<div id="codeModal" class="modal hidden">
+
+    <div class="modal-box">
+
+        <h2>⭐ ورود به ستاره</h2>
+
+        <p>کد مخصوص این ستاره را وارد کن.</p>
+
+        <input
+            id="codeInput"
+            type="password"
+            placeholder="کد..."
+        >
+
+        <button id="checkCode">
+            ورود
+        </button>
+
+        <button id="closeModal">
+            بستن
+        </button>
+
+    </div>
+
+</div>
+
+<div id="contentModal" class="modal hidden">
+
+    <div class="modal-box">
+
+        <button id="closeContent">
+            ✖
+        </button>
+
+        <div id="contentArea">
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
 
 </body>
 
